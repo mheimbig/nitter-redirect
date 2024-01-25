@@ -59,6 +59,8 @@ browser.webRequest.onBeforeRequest.addListener(
       "*://mobile.twitter.com/*",
       "*://pbs.twimg.com/*",
       "*://video.twimg.com/*",
+      "*://x.com/*",
+      "*://www.x.com/*",
     ],
   },
   ["blocking"]
