@@ -1,6 +1,6 @@
 {
   "name": "Nitter Redirect",
-  "description": "Redirects Twitter requests to Nitter, the privacy friendly alternative.",
+  "description": "Redirects Twitter requests to Nitter, the privacy-friendly alternative.",
   "version": "1.1.5",
   "manifest_version": 2,
   "background": {
@@ -18,7 +18,9 @@
         "*://www.twitter.com/*",
         "*://mobile.twitter.com/*",
         "*://pbs.twimg.com/*",
-        "*://video.twimg.com/*"
+        "*://video.twimg.com/*",
+        "*://x.com/*",
+        "*://www.x.com/*"
       ],
       "js": ["content-script.js"],
       "run_at": "document_start"
@@ -32,7 +34,9 @@
     "*://www.twitter.com/*",
     "*://mobile.twitter.com/*",
     "*://pbs.twimg.com/*",
-    "*://video.twimg.com/*"
+    "*://video.twimg.com/*",
+    "*://x.com/*",
+    "*://www.x.com/*"
   ],
   "browser_action": {
     "default_popup": "pages/popup/popup.html",
